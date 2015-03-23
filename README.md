@@ -1,5 +1,4 @@
 # evarobot
-Welcome to the evarobot wiki!
 
 **Installing evarobot gazebo model**
 
