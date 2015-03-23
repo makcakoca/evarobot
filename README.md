@@ -1,16 +1,16 @@
 # evarobot
 
-**Installing evarobot gazebo model**
+**Installing evarobot gazebo model** <br />
 
-*$ cd ~/catkin_ws/src
-*$ git clone https://github.com/tu-darmstadt-ros-pkg/hector_gazebo.git -b indigo-devel
-*$ git clone https://github.com/makcakoca/evarobot/tree/master/evarobot_description
-*$ git clone https://github.com/makcakoca/evarobot/tree/master/im_msgs
-*$ cd ~/catkin_ws
-*$ catkin_make
+$ cd ~/catkin_ws/src <br />
+$ git clone https://github.com/tu-darmstadt-ros-pkg/hector_gazebo.git -b indigo-devel <br />
+$ git clone https://github.com/makcakoca/evarobot/tree/master/evarobot_description <br />
+$ git clone https://github.com/makcakoca/evarobot/tree/master/im_msgs <br />
+$ cd ~/catkin_ws <br />
+$ catkin_make <br />
 
 **Running the gazebo model**
-*$ roslaunch evarobot_description evarobot.launch
+*$ roslaunch evarobot_description evarobot.launch <br />
 
 **To work with rosbridge, you need rosbridge packet.**
-*$ sudo apt-get install ros-indigo-rosbridge-server
+*$ sudo apt-get install ros-indigo-rosbridge-server <br />
