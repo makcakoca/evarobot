@@ -10,7 +10,7 @@ $ cd ~/catkin_ws <br />
 $ catkin_make <br />
 
 **Running the gazebo model** <br />
-*$ roslaunch evarobot_description evarobot.launch <br />
+$ roslaunch evarobot_description evarobot.launch <br />
  
 **To work with rosbridge, you need rosbridge packet.** <br />
-*$ sudo apt-get install ros-indigo-rosbridge-server <br />
+$ sudo apt-get install ros-indigo-rosbridge-server <br />
