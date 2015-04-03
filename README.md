@@ -4,8 +4,11 @@
 
 $ cd ~/catkin_ws/src <br />
 $ git clone https://github.com/tu-darmstadt-ros-pkg/hector_gazebo.git -b indigo-devel <br />
-$ git clone https://github.com/makcakoca/evarobot/tree/master/evarobot_description <br />
-$ git clone https://github.com/makcakoca/evarobot/tree/master/im_msgs <br />
+$ git clone https://github.com/makcakoca/evarobot <br />
+$ git clone https://github.com/ros-simulation/gazebo_ros_pkgs.git -b indigo-devel <br />
+$ git clone https://github.com/ros-controls/control_toolbox.git -b indigo-devel <br />
+$ git clone https://github.com/ros-controls/realtime_tools.git -b indigo-devel <br />
+$ git clone https://github.com/ros-controls/ros_control.git -b indigo-devel <br />
 $ cd ~/catkin_ws <br />
 $ catkin_make <br />
 
